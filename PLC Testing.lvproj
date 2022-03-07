@@ -18,6 +18,7 @@
 		<Item Name="Mitsubishi PLC.lvclass" Type="LVClass" URL="../Mitsubishi PLC/Mitsubishi PLC.lvclass"/>
 		<Item Name="Number to binary format.vi" Type="VI" URL="../Number to binary format.vi"/>
 		<Item Name="Reponse length.vi" Type="VI" URL="../Reponse length.vi"/>
+		<Item Name="SLMP.lvclass" Type="LVClass" URL="../SLMP/SLMP.lvclass"/>
 		<Item Name="TCP testing.vi" Type="VI" URL="../TCP testing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
