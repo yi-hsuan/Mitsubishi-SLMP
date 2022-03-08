@@ -1,0 +1,18 @@
+{
+    "Devices" : [
+        {
+            "Device" : "Input",
+            "Type" : "bit",
+            "ASCII" : "X*",
+            "Binary" : "9C",
+            "Number format" : "Octal"
+        },
+        {
+            "Device" : "Output",
+            "Type" : "bit",
+            "ASCII" : "Y*",
+            "Binary" : "9D",
+            "Number format" : "Octal"
+        }
+    ]
+}
