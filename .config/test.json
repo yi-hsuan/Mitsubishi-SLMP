@@ -1,0 +1,14 @@
+{
+    "X" : {
+        "Head Device No" : "000",
+        "Number of devices" : 32
+    },
+    "Y" : {
+        "Head Device No" : "000",
+        "Number of devices" : 32
+    },
+    "D" : {
+        "Head Device No" : "501",
+        "Number of devices" : 24
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "Device Read Batch" : {
+        "Command" : "0401",
+        "Sub-command" :{
+            "Bit" : {
+                "2" : {
+                    "non-Specified" : "0001",
+                    "Specified" : "0081"
+                },
+                "4" : {
+                    "Specified" : "0083"
+                }
+            },
+            "Word" : {
+                "2" : {
+                    "non-Specified" : "0000",
+                    "Specified" : "0080"
+                },
+                "4" : {
+                    "Specified" : "0082"
+                }
+            }
+        }
+    },
+    "Device Read Block" : {
+        "Command" : "0406",
+        "Sub-command" :{
+            "Word" : {
+                "2" : {
+                    "non-Specified" : "0000",
+                    "Specified" : "0080"
+                },
+                "4" : {
+                    "Specified" : "0082"
+                }
+            }
+        }
+    },
+    "Device Write Block" : {
+        "Command" : "1406",
+        "Sub-command" :{
+            "Word" : {
+                "2" : {
+                    "non-Specified" : "0000",
+                    "Specified" : "0080"
+                },
+                "4" : {
+                    "Specified" : "0082"
+                }
+            }
+        }
+    }
+}

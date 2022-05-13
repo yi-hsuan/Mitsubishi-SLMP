@@ -1,18 +1,41 @@
 {
-    "Devices" : [
-        {
-            "Device" : "Input",
-            "Type" : "bit",
-            "ASCII" : "X*",
-            "Binary" : "9C",
-            "Number format" : "Octal"
+    "X" : {
+        "Device" : "Input",
+        "Type" : "Bit",
+        "ASCII" : {
+            "2" : "X*",
+            "4" : "X***"
         },
-        {
-            "Device" : "Output",
-            "Type" : "bit",
-            "ASCII" : "Y*",
-            "Binary" : "9D",
-            "Number format" : "Octal"
-        }
-    ]
+        "Binary" : {
+            "2" : "9C",
+            "4" : "9C00"
+        },
+        "Number format" : "Octal"
+    },
+    "Y" : {
+        "Device" : "Output",
+        "Type" : "Bit",
+        "ASCII" : {
+            "2" : "Y*",
+            "4" : "Y***"
+        },
+        "Binary" : {
+            "2" : "9D",
+            "4" : "9D00"
+        },
+        "Number format" : "Octal"
+    },
+    "D" : {
+        "Device" : "Data register",
+        "Type" : "Word",
+        "ASCII" : {
+            "2" : "D*",
+            "4" : "D***"
+        },
+        "Binary" : {
+            "2" : "A8",
+            "4" : "A800"
+        },
+        "Number format" : "Decimal"
+    }
 }

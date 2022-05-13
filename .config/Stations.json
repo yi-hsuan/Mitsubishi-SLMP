@@ -1,0 +1,13 @@
+{
+    "Subheader" : {
+        "Request" : "5000",
+        "Response" : "D000"
+    },
+    "Network number" : "00",
+    "Station number" : "FF",
+    "Module IO number" : {
+        "ASCII" : "03FF",
+        "Binary" : "FF03"
+    },
+    "Multi-drop station number" : "00"
+}    
